@@ -1,1 +1,5 @@
 removed sentiments with 0.0 magnitude and 0.0 sentiment
+changed a videos stats from inf to 62/1
+	one of the vids had 0 dislikes
+	if you divide by 0 you get inf value
+		screws with results
