@@ -1,0 +1,43 @@
+project submission
+	data exploration and visualisation
+		the main variables are:
+			viewCount
+			likeCount
+			dislikeCount
+			commentCount
+			ratio
+			ratio_bins
+			class
+			sentMean
+			magMean
+		visualise these individually with boxplots and/or histograms, maybe display their descriptive stats (min max stdev median etc)
+			just like portfolio 1
+		visualise these together in a pairgrid or pairplot
+			just like portfolio 1 and 2
+		a heatmap of the correlations between the main variables
+		perhaps a heatmap of just the magnitude and sentiment stuff with each other
+		visualise some key differences between the class groups and the ratio_bins groups
+	simple model
+		our simple model will be linear regression of sentMean and ratio, logistic regression of sentMean and ratio_bins
+	prediction/modelling
+		apply linear regression with RFE to find the best combination of variables
+			visualise the RFE
+				just like portfolio 2
+			determine the variables which are the most important predictors of ratio
+		apply all the other classification models and find out which one or two performs the best
+			just like week 10 prac
+		perhaps apply some unsupervised learning to find clusters in our data
+		parameter analysis/parameter tuning
+			tune our parameters for each model and improve performance
+project presentation
+	Title slide, group members
+	Problem statement & Data sources
+		what problem are you solving with what data
+	Methods used
+		summarise the approach you took
+	Results
+		show us what you found
+	future
+		where we can go from here
+		identify things we can change to improve performance or more data we can collect
+		encourage others to analyse our data
