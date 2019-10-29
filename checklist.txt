@@ -16,7 +16,7 @@ project submission
 			just like portfolio 1 and 2
 		a heatmap of the correlations between the main variables
 		perhaps a heatmap of just the magnitude and sentiment stuff with each other
-		visualise some key differences between the class groups and the ratio_bins groups
+		visualise some key differences between the ratio_bins groups
 	simple model
 		our simple model will be linear regression of sentMean and ratio, logistic regression of sentMean and ratio_bins
 	prediction/modelling
