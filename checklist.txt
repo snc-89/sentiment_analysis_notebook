@@ -20,15 +20,27 @@ project submission
 	simple model
 		our simple model will be linear regression of sentMean and ratio, logistic regression of sentMean and ratio_bins
 	prediction/modelling
-		apply linear regression with RFE to find the best combination of variables
+		apply linear regression with RFE to find the best combination of 
+			use random forrest regression to see if we can improve our linear regression
+			Linear Regression
+			Support Vector Regression
+			Decision Tress/Random Forest
+			Gaussian Progresses Regression
+			Ensemble Methods
 			visualise the RFE
 				just like portfolio 2
 			determine the variables which are the most important predictors of ratio
 		apply all the other classification models and find out which one or two performs the best
 			just like week 10 prac
+			K-Nearest Neighbor
+			Naive Bayes
+			Decision Trees/Random Forest
+			Support Vector Machine
+			Logistic Regression
 		perhaps apply some unsupervised learning to find clusters in our data
 		parameter analysis/parameter tuning
 			tune our parameters for each model and improve performance
+			gridsearchcv?
 project presentation
 	Title slide, group members
 	Problem statement & Data sources

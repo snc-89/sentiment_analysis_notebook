@@ -3,3 +3,5 @@ changed a videos stats from inf to 62/1
 	one of the vids had 0 dislikes
 	if you divide by 0 you get inf value
 		screws with results
+remove duplicates in our dataframe
+removed videos that were deleted but still included in our api request responses
