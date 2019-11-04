@@ -1,3 +1,0 @@
-features to select for each vid
-views comments likes dislikes ratio
-sentiment, max, min, median, IQR, LQ, UQ, STD
